@@ -14,9 +14,9 @@ We have three tables:
 <br />
 players - storing playerID and playername 
 <br />
-playerstandings - storing playerID, playerName
+playerstandings - storing playerID, playerName, numberOfwins and numberOfmatches, and
 <br />
-numberOfwins and numberOfmatches, and matchoutcomes - storing matchID, winnerID and loserID.
+matchoutcomes - storing matchID, winnerID and loserID.
 
 The file tournament.py has several functions to simulate the tournament. The functions are:
 <br />
