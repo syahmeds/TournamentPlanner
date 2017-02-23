@@ -21,6 +21,7 @@ matchoutcomes - storing matchID, winnerID and loserID.
 The file tournament.py has several functions to simulate the tournament. The functions are:
 <br />
 connect():
+<br />&nbsp;&nbsp;&nbsp;&nbsp;
     """Connect to the PostgreSQL database.  Returns a database connection."""
 <br />
 deleteMatches():
