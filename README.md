@@ -10,7 +10,13 @@ This project has two parts: defining the database schema (SQL table definitions)
 The project has three main files: tournament.sql, tournament.py, and tournament_test.py.
 
 The file tournament.sql is where the database schema is housed, in the form of SQL create table commands.
-We have three tables, players - storing playerID and playername, playerstandings - storing playerID, playerName, numberOfwins and numberOfmatches, and matchoutcomes - storing matchID, winnerID and loserID.
+We have three tables: 
+<br />
+players - storing playerID and playername 
+<br />
+playerstandings - storing playerID, playerName
+<br />
+numberOfwins and numberOfmatches, and matchoutcomes - storing matchID, winnerID and loserID.
 
 The file tournament.py has several functions to simulate the tournament. The functions are:
 <br />
