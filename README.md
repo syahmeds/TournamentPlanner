@@ -13,6 +13,7 @@ The file tournament.sql is where the database schema is housed, in the form of S
 We have three tables, players - storing playerID and playername, playerstandings - storing playerID, playerName, numberOfwins and numberOfmatches, and matchoutcomes - storing matchID, winnerID and loserID.
 
 The file tournament.py has several functions to simulate the tournament. The functions are:
+/n
 connect():
     """Connect to the PostgreSQL database.  Returns a database connection."""
 deleteMatches():
