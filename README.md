@@ -16,18 +16,25 @@ The file tournament.py has several functions to simulate the tournament. The fun
 <br />
 connect():
     """Connect to the PostgreSQL database.  Returns a database connection."""
+<br />
 deleteMatches():
     """Remove all the match records from the database."""
+<br />
 deletePlayers():
     """Remove all the player records from the database."""
+<br />
 countPlayers():
     """Returns the number of players currently registered."""
+<br />
 registerPlayer(name):
     """Adds a player to the tournament database.
+<br />
 playerStandings():
     """Returns a list of the players and their win records, sorted by wins.
+<br />
 reportMatch(winner, loser):
     """Records the outcome of a single match between two players.
+<br />
 swissPairings():
     """Returns a list of pairs of players for the next round of a match.
 
