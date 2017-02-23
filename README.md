@@ -52,4 +52,4 @@ swissPairings():
 <br />&nbsp;&nbsp;&nbsp;&nbsp;
     """Returns a list of pairs of players for the next round of a match."""
 
-Finally, the file tournament_test.py contains unit tests that will test the functions you’ve written in tournament.py. You can run the tests from the command line, using the command python tournament_test.py.
+Finally, the file tournament_test.py contains unit tests that will test the functions you’ve written in tournament.py. You can run the tests from the command line, using the command 'python tournament_test.py'.
