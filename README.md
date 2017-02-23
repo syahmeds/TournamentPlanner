@@ -25,24 +25,31 @@ connect():
     """Connect to the PostgreSQL database.  Returns a database connection."""
 <br />
 deleteMatches():
+<br />&nbsp;&nbsp;&nbsp;&nbsp;
     """Remove all the match records from the database."""
 <br />
 deletePlayers():
+<br />&nbsp;&nbsp;&nbsp;&nbsp;
     """Remove all the player records from the database."""
 <br />
 countPlayers():
+<br />&nbsp;&nbsp;&nbsp;&nbsp;
     """Returns the number of players currently registered."""
 <br />
 registerPlayer(name):
-    """Adds a player to the tournament database.
+<br />&nbsp;&nbsp;&nbsp;&nbsp;
+    """Adds a player to the tournament database."""
 <br />
 playerStandings():
-    """Returns a list of the players and their win records, sorted by wins.
+<br />&nbsp;&nbsp;&nbsp;&nbsp;
+    """Returns a list of the players and their win records, sorted by wins."""
 <br />
 reportMatch(winner, loser):
-    """Records the outcome of a single match between two players.
+<br />&nbsp;&nbsp;&nbsp;&nbsp;
+    """Records the outcome of a single match between two players."""
 <br />
 swissPairings():
-    """Returns a list of pairs of players for the next round of a match.
+<br />&nbsp;&nbsp;&nbsp;&nbsp;
+    """Returns a list of pairs of players for the next round of a match."""
 
 Finally, the file tournament_test.py contains unit tests that will test the functions you’ve written in tournament.py. You can run the tests from the command line, using the command python tournament_test.py.
